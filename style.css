@@ -1,0 +1,15 @@
+*{
+    
+}
+body{
+    background-image: url(/img/rick&morty-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    gap: 2rem;
+}
