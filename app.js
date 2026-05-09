@@ -118,6 +118,3 @@ const mostrarContador = (personajes) => {
     const div = document.getElementById('contador-estados')
     div.innerHTML = `Alive: ${conteo.Alive || 0} | Dead: ${conteo.Dead || 0} | Unknown: ${conteo.unknown || 0}`
 }
-
-//falta storage, falta librerias,
-//modularizar init tambien filtro y buscador
